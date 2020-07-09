@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.infoIndicator {
+  display: flex;
+  justify-content: space-between;
+  /* background: red; */
+  width: 90%;
+  margin: 0 auto;
+}
+#indicator-number {
+  color: #7fcee8;
+}
+
+
+img{
+  width: 20px;
+}
+.header {
+  width: 100vw;
+  height: 15vh;
+  /* background: #373f47; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+}
+
+.header p {
+  color: #666;
+  font-size: 1em;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+.header span {
+  font-weight: bold;
+}
+
+body {
+  background: white;
+}
+
+.indicator {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indicator .chip {
+  display: inline-block;
+  color: #2fa892;
+  background: #d9d9da;
+  border-radius: 20%;
+  padding: 0px 5px;
+  font-weight: 500;
+}
+
+.view1 input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+}
+.view2 input,textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+}
+
+
+
+.view1 .section1 {
+  /* background: rgb(248, 147, 147); */
+
+  padding: 20px 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ededed;
+}
+.view1 .section2 {
+  /* background: rgb(248, 147, 147); */
+  padding: 20px 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ededed;
+}
+.view1 .section3 {
+  /* background: rgb(248, 147, 147); */
+  padding: 20px 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ededed;
+}
+
+.view1 .section4 {
+  /* background: rgb(248, 147, 147); */
+  padding: 20px 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ededed;
+}
+.view1 .section5 {
+  /* background: rgb(248, 147, 147); */
+  padding: 20px 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid #ededed; */
+}
+
+.view2 .section1 {
+  /* background: rgb(248, 147, 147); */
+  padding: 20px 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid #ededed; */
+}
+.view2 .section2 {
+  /* background: rgb(248, 147, 147); */
+  padding: 20px 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border: 1px solid #ededed; */
+}
+.view2 .section3 {
+  /* background: rgb(248, 147, 147); */
+  padding: 20px 20px;
+  font-size: 15px;
+ /*  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  /* border: 1px solid #ededed; */
+}
+.view2 .section4 {
+  /* background: rgb(248, 147, 147); */
+  padding: 20px 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid #ededed; */
+}
+.dataMoreInfo {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+#moreInfo{
+  margin-left: 10px;
+}
+.containerButtons {
+ 
+  display: flex;
+  justify-content: space-evenly;
+  
+
+/* background-color: red; */
+
+}
+.containerButtons button {
+  border-radius: 50px;
+  width: 30%;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.containerButtons button:hover {
+  background:#1d9bc6 ;
+  color: white;
+}
+
+
+.section1 p {
+  font-size: 1em;
+}
+
+.section2 p {
+  font-size: 1em;
+}
+
+
+
+.rN {
+  margin-left: 20%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ededed;
+}
+
+.btn-primary {
+  background: #11a3d1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 40vw;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#btn-end {
+  width: 90vw;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px 20px;
+  width: 40vw;
+  cursor: pointer;
+}
